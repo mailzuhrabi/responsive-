@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+.head{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}
+.head img{
+width:20px;
+height: 20px;
+
+background-color: white;
+
+}
+.head p{
+  margin-top: -20px;
+  font-size: 16px;
+}
+.head button{
+  background-color: black;
+  border:none ;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+padding: 8px 10px;
+  
+}
+.nav li{
+  float:left
+}
+.navigation{
+  padding-top: 40px;
+  margin-left: 170px;
+  padding: 20px 60px;
+}
+
+.navigation a{
+  text-align: justify;
+  text-decoration: none;
+  text-justify: distribute-all-lines;
+  margin-left: 50px;
+  font-size: 13px;
+}
+.nav-item li a{
+  text-decoration: none;
+  margin-top: 80px;
+  color: black;
+  font-size: 12px;
+  text-justify: distribute;
+}
+.small{
+
+flex: 200px;
+margin-left: 500px;
+text-align: justify;
+justify-content: space-between;
+}
+.black {
+  background-color: black;
+  padding: 20px 20px;
+  
+}
+.black span{
+  color: white;
+  text-align: center;
+  margin-left: 400px;
+}
+.black button{
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+}
+.content{
+  margin-left: 150px;
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+.content img{
+  padding: 20px 20px;
+}
+.last{
+  background-color: black;
+  
+  
+}
+.last h3{
+  color: white;
+  margin-left: 70px;
+  padding: 40px;
+}
+.last span{
+  color: white;
+  margin-left: 740px;
+  margin-top: -1000px;
+
+}
